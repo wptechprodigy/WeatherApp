@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar
             .appearance()
             .largeTitleTextAttributes = [
-                NSAttributedString.Key.font: UIFont(name: "Helvetica Neue Bold", size: 32)!
+                NSAttributedString.Key.font: UIFont(name: "Helvetica Neue Bold", size: 32)!,
+                NSAttributedString.Key.foregroundColor: UIColor.WA.primary.color
             ]
         return true
     }
